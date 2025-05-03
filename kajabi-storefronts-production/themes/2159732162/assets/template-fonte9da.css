@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;display=block');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&amp;display=block');
+@font-face {
+    font-family: 'Le Major';
+    src: url('lemajor-regular.woff2') format('woff2'),
+        url('lemajor-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Gordita';
+    src: url('gordita-regular.woff2') format('woff2'),
+        url('gordita-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Termina';
+    src: url('termina-regular.woff2') format('woff2'),
+        url('termina-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Commuters Sans Semi';
+    src: url('commuters-sans-semibold.woff2') format('woff2'),
+        url('commuters-sans-semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Commuters Sans';
+    src: url('commuterssans-regular.woff2') format('woff2'),
+        url('commuterssans-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Gatwick';
+    src: url('gatwick-regular.woff2') format('woff2'),
+        url('gatwick-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Gatwick';
+    src: url('gatwick-ultrabold.woff2') format('woff2'),
+        url('gatwick-ultrabold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Gatwick';
+    src: url('gatwick-medium.woff2') format('woff2'),
+        url('gatwick-medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: block;
+}
