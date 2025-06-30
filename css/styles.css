@@ -1,0 +1,125 @@
+
+    <!-- Custom CSS Added Via Theme Settings -->
+ 
+  @font-face {
+    font-family: 'Switzer';
+    src: url('https://s3.amazonaws.com/kajabi-storefronts-production/file-uploads/sites/179807/themes/2159628696/downloads/0c0dd0-6583-2ee-c42e-2574772425c5_switzer-light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Saol Display';
+    src: url('https://s3.amazonaws.com/kajabi-storefronts-production/file-uploads/sites/179807/themes/2159628696/downloads/64c7f1f-1c8d-8f4e-750-12618fbbbf3a_saoldisplay-lightItalic.woff2') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Termina';
+    src: url('https://s3.amazonaws.com/kajabi-storefronts-production/file-uploads/sites/179807/themes/2159628696/downloads/ac0cfbd-c71c-eb30-4e44-c17a5706a3c_termina-medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Commuters Sans';
+    src: url('https://s3.amazonaws.com/kajabi-storefronts-production/file-uploads/sites/179807/themes/2159628696/downloads/62f8700-0e5a-5880-8f10-811243f213_commuterssans-light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Commuters Sans';
+    src: url('https://s3.amazonaws.com/kajabi-storefronts-production/file-uploads/sites/179807/themes/2159628696/downloads/2ca47f-7114-4704-487f-aec1db1811d2_commuterssans-regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+em,.em{
+font-family: 'Saol Display';
+font-weight: 300;
+font-style: italic;
+}
+    
+
+    /* Kajabi Editor Only CSS */
+
+    
+    /* Header hook  */
+
+
+    #editor-overlay {
+        display: none;
+        border-color: #2E91FC;
+        position: absolute;
+        background-color: rgba(46,145,252,0.05);
+        border-style: dashed;
+        border-width: 3px;
+        border-radius: 3px;
+        pointer-events: none;
+        cursor: pointer;
+        z-index: 10000000000;
+    }
+    .editor-overlay-button {
+        color: white;
+        background: #2E91FC;
+        border-radius: 2px;
+        font-size: 13px;
+        margin-left: -24px;
+        margin-top: -12px;
+        padding: 3px 10px;
+        text-transform:uppercase;
+        font-weight:bold;
+        letter-spacing:1.5px;
+
+        left: 50%;
+        top: 50%;
+        position: absolute;
+    }
+
+
+    
+    /* Font Awesome 4 */
+    .fa.fa-twitter{
+        font-family:sans-serif;
+    }
+    .fa.fa-twitter::before{
+        content:"𝕏";
+        font-size:1.2em;
+    }
+
+    /* Font Awesome 5 */
+    .fab.fa-twitter{
+        font-family:sans-serif;
+    }
+    .fab.fa-twitter::before{
+        content:"𝕏";
+        font-size:1.2em;
+    }
+    
+      /* Fonts Option of Settings */
+          
+        
+        h1, h2, h3, h4, h5, h6{ color:#000000; }
+        body{ color:#000000; }
+        
+        main{
+           border-color:#000000;
+        }
+              
+        
+        @media (max-width: 550px){           
+            
+            main {
+                border-width: 0px;
+            }
+            
+        }
+        
+   
